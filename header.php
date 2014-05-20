@@ -41,6 +41,8 @@
 
 	<body <?php body_class(); ?>>
 
+        <?php include('analytics.php'); ?>
+
 		<div id="container">
 
 			<header class="header" role="banner">
