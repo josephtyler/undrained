@@ -1,0 +1,3 @@
+compass watch
+
+Listens for changes to the sass files and automatically processes.
