@@ -14,11 +14,13 @@
 
     var pin = function(){
       $clone.show();
+      $this.css('visibility','hidden');
       pinned = true;
     }
 
     var unpin = function(){
       $clone.hide();
+      $this.css('visibility','visible');
       pinned = false;
     }
       
