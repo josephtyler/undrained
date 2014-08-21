@@ -169,11 +169,12 @@ HEADER STYLES
         font-weight: 700;
         line-height: 1em;
         font-size: 5.5em;
+        text-decoration: none;
 	}
 
     #head-desc {
-        margin: 1em 0 0.5em 0;
-        font-size: 1.3em;
+        margin: 0.5em 0 0.2em 0;
+        font-size: 1em;
         color: $medium-gray; 
     }
 
@@ -198,16 +199,17 @@ and more scalable.
 	margin: 0;
 
 	li {
+        display: inline-block;
 
 		a {
-			display: block;
-			color: $dark-gray;
-			text-decoration: none;
-			padding: 0.3em 0 0.2em 0;
-            margin: 0 1.5em 0 0;
+            font-size: 1.2em;
+            display: inline-block;
+            color: $dark-gray;
+            text-decoration: none;
+            padding: 0.3em 0 0.2em 0;
+            margin: 0 0.7em 0 0;
             font-family: $sans-serif;
             font-weight: 700;
-            font-size: 2.2em;
             text-transform: uppercase;
 
 			/*
@@ -292,7 +294,7 @@ POSTS & CONTENT STYLES
 
 			header {
 				border-bottom: 1px solid $light-gray;
-				padding: 1.5em 0;
+				padding: 0;
 			}
 
 			footer {

@@ -44,6 +44,12 @@ HEADER STYLES
 
 	#logo {}
 
+    #head-desc {
+        margin: 1em 0 0.5em 0;
+        font-size: 1.3em;
+        color: $medium-gray; 
+    }
+
 /*********************
 NAVIGATION STYLES
 *********************/
@@ -60,6 +66,15 @@ NAVIGATION STYLES
 		a {
 			border-bottom: 0;
             transition:.5s;
+			display: block;
+			color: $dark-gray;
+			text-decoration: none;
+			padding: 0.3em 0 0.2em 0;
+            margin: 0 1.5em 0 0;
+            font-family: $sans-serif;
+            font-weight: 700;
+            font-size: 2.2em;
+            text-transform: uppercase;
 
 			/*
 			you can use hover styles here even though this size
@@ -300,6 +315,11 @@ POSTS & CONTENT STYLES
 *********************/
 
 .hentry {
+
+    header {
+        border-bottom: 1px solid $light-gray;
+        padding: 1.5em 0;
+    }
 
     .entry-title {
         a {
