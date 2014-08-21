@@ -331,9 +331,26 @@ POSTS & CONTENT STYLES
         }
     }
 
+    section.entry-square {
+        width: 64%;
+        margin-left: 2%;
+        display: inline-block;
+
+        .entry-title {
+            margin: 0 0 0.5em 0;
+            line-height: 1em;
+        }
+    }
+
     section.entry-feature {
+        width: 33%;
+        display: inline-block;
+        vertical-align: top;
         background-color: #000;
         img {
+            max-width: 100%;
+            height: auto;
+            display: block;
             opacity: 0.8;
             transition: opacity 0.5s;
         }

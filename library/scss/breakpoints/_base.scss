@@ -306,8 +306,16 @@ POSTS & CONTENT STYLES
 				}
 			}
 
+            .entry-title {
+                margin: 0;
+            }
+
+            .entry-title.h2 {
+                margin: 0.7em 0 0.5em 0;
+            }
+
             section.entry-feature {
-                width: 33%;
+                width: 100%;
                 display: inline-block;
                 vertical-align: top;
 
@@ -319,8 +327,7 @@ POSTS & CONTENT STYLES
             }
 
             section.entry-square {
-                width: 64%;
-                margin-left: 2%;
+                width: 100%;
                 display: inline-block;
 
                 .entry-title {

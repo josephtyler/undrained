@@ -14,7 +14,7 @@
 
                                 <section class="entry-feature cf">
                                     <?php if (has_post_thumbnail()) : ?>
-                                        <?= the_post_thumbnail('medium') ?>
+                                        <a href="<?php the_permalink() ?>"><?= the_post_thumbnail('medium') ?></a>
                                     <?php else : ?>
                                     
                                     <?php endif; ?>
